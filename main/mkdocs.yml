@@ -1,0 +1,84 @@
+site_name: Shred Science 
+site_url: https://www.shredscience.org
+theme:
+# ==============================================================
+  font:
+    text: RocknRoll One
+# ==============================================================
+  name: material
+  palette:
+    # The only supported theme is dark.
+    - scheme: slate
+      primary: red
+      accent: red
+
+  favicon: assets/images/main-icon.png 
+  logo: assets/images/main-icon.png
+
+  icon:
+    repo: fontawesome/brands/github-alt
+    admonition:
+      example: fontawesome/solid/laptop-code
+      success: material/checkbox-multiple-marked-circle
+      info: material/guitar-electric
+
+
+# GITHUB REPO
+repo_url: https://github.com/kylecurtis/shred-science
+repo_name: kylecurtis/shred-science
+
+# COPYRIGHT
+copyright: Copyright &copy; 2024 Kyle Curtis
+
+icon:
+    repo: fontawesome/brands/github-alt
+    admonition:
+      example: fontawesome/solid/laptop-code
+      success: material/checkbox-multiple-marked-circle
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/catppuccin-themes.css
+  - stylesheets/header-footer.css
+  - stylesheets/admonitions.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - 🏠 Home:
+    - index.md
+    - support.md
+
+  - 🎸 Chord Charts:
+    - learn/chords/a-series.md
+    - learn/chords/a-sharp-series.md
+    - learn/chords/b-series.md
+    - learn/chords/c-series.md
+    - learn/chords/c-sharp-series.md
+    - learn/chords/d-series.md
+    - learn/chords/d-sharp-series.md
+    - learn/chords/e-series.md
+    - learn/chords/f-series.md
+    - learn/chords/f-sharp-series.md
+    - learn/chords/g-series.md
+    - learn/chords/g-sharp-series.md
+
+  - 🎸 Scales & Modes:
+    - learn/soon.md
+
+  - 🎸 Circle of Fifths:
+    - learn/soon.md
+
+  - 🎸 Warmups:
+    - learn/soon.md
+
+  - 🎸 Arpeggios:
+    - learn/soon.md
